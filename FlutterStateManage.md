@@ -19,7 +19,7 @@
 
 `riverpod` 有 `hooks` 版本，对一些常用的方法进行了封装，来方便使用，比如 `useTextEditingController` 就是对 `TextEditingController` 的封装。
 
-DEMO
+[DEMO](https://github.com/Civil3Labs/stateManage/tree/main/lib/riverpod)
 
 ## Mobx
 Mobx 上手非常简单， 通过装饰器语法对 class 中的属性或方法添加 observable、action 即可做到响应式更新。
@@ -43,6 +43,9 @@ import 'package:mobx/mobx.dart';
 part 'store.g.dart';
 ```
 
+[DEMO](https://github.com/Civil3Labs/stateManage/tree/main/lib/mobx)
+
+
 ## Redux
 Redux 和 Mobx 一样，相对于前端转 dart 的程序员来说， 这种库理解起来相对简单容易。
 
@@ -54,6 +57,9 @@ Redux 的工作原理图
 
 ![](https://pic2.zhimg.com/v2-ddeb4c146759063b0c0abb7d1e2e4061_r.jpg)
 
+[DEMO](https://github.com/Civil3Labs/stateManage/tree/main/lib/redux)
+
+
 ## Bloc
 > BLoC全称（Business Logic Component)是谷歌提出的一种设计模式，利用流的方式实现界面的异步渲染和重绘，我们可以非常快速的通过BLoC实现业务与界面的分离。
 
@@ -64,6 +70,8 @@ Bloc 目前我不是很懂，上手难度有些高。
 ![](https://img-blog.csdnimg.cn/3246e38d11af427eb559380f8e16cdda.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAbmljZXBhaW5raWxsZXI=,size_19,color_FFFFFF,t_70,g_se,x_16)
 
 ![](https://img-blog.csdnimg.cn/129636241b18439a9f709bc06305e6bb.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAbmljZXBhaW5raWxsZXI=,size_19,color_FFFFFF,t_70,g_se,x_16)
+
+[DEMO](https://github.com/Civil3Labs/stateManage/tree/main/lib/bloc)
 
 ## Getx
 Getx 和 Flutter 的关系， 我个人觉得就像 javascript 和 Vue 的关系。
@@ -94,6 +102,8 @@ Getx 的主要功能有：
   - GetX 并不臃肿，却很轻量。如果你只使用状态管理，只有状态管理模块会被编译，其他没用到的东西都不会被编译到你的代码中。它拥有众多的功能，但这些功能都在独立的容器中，只有在使用后才会启动。
 
 - Getx有一个庞大的生态系统，能够在Android、iOS、Web、Mac、Linux、Windows和你的服务器上用同样的代码运行。 通过Get Server 可以在你的后端完全重用你在前端写的代码。
+
+[DEMO](https://github.com/Civil3Labs/stateManage/tree/main/lib/getx)
 
 
 ## 总结
