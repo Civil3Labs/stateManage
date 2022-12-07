@@ -1,4 +1,4 @@
-import 'package:demo1/getx/model.dart';
+import 'package:stateManage/getx/model.dart';
 import "package:flutter/material.dart";
 import 'package:get/get.dart';
 
